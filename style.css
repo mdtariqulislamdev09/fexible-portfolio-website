@@ -1,0 +1,132 @@
+*{
+    padding: 0 auto;
+    font-family: "Open Sans", sans-serif;
+}
+/* common style */
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.common-btn{
+    background-color: #fd6e0a;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+.logo{
+    font-weight: bold;
+    font-size: 32px;
+}
+.logo-r{
+    color: #FD6E0A;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+
+}
+ul li a{
+    text-decoration: none;
+}
+/* hero section */
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff8f3;
+}
+.hero-left h1{
+    font-weight: bold;
+    font-size: 85px;
+}
+.hero-left-p1{
+    font-weight: 600px;
+    font-size: 45px;
+}
+.btn-2{
+    background-color: white;
+    color: #FD6E0A;
+    border-radius: 8px;
+    border: 1px solid #FD6E0A;
+    padding: 15px 20px;
+}
+.hero-left-btn-parent{
+    margin-top: 12px;
+}
+/* about section */
+.about-parent{
+    background-color: #fff8f3;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 35px;
+    text-align: center;
+}
+.about-parent p{
+    margin: 10px 0;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+}
+/* what i do section */
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+}
+.card-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* resume section */
+.resume-parent{
+    text-align: center;
+}
+.resume-conteiner{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    text-align: left;
+}
+.resume-container-child{
+    border-bottom: 2px solid #D1D1D1;
+}
+.resume-container-child h5{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+.resume-container-child h3{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+}
+.resume-conteiner h2{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+}
+.resume-container-child p{
+    font-weight: 500px;
+    font-size: 16px;
+    color: #757575;
+}
